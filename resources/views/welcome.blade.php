@@ -18,9 +18,24 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+            .container{
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40vh;
+                margin-top: 30vh;
+                flex-direction: column;
+            }   
         </style>
     </head>
     <body>
-        <h1 class="text-center">Benvenuto in Laravel</h1>
+        <div class="container">
+
+            <h1>Benvenuto!</h1>
+            <h2>&#128516	&#128518</h2>
+            <p>Il mio primo progetto usando <b>Laravel</b></p>
+        </div>
     </body>
 </html>
